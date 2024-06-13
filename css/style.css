@@ -17,6 +17,12 @@ h6 {
     color: #4a4c70;
 }
 
+.map-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 a {
     color: #4a4c70;
     transition: .3s;
@@ -529,7 +535,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 210px 0 90px 0;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1111,7 +1117,10 @@ a:focus {
     position: relative;
     font-size: 0;
 }
-
+#ankit
+{
+    color:black;
+}
 .team .team-social a {
     display: inline-block;
     width: 35px;
