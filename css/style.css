@@ -7,7 +7,11 @@ body {
     background: #ffffff;
     font-family: 'Quicksand', sans-serif;
 }
-
+#ankit
+{
+   color: black;
+   font-weight: bold; 
+}
 h1,
 h2, 
 h3, 
@@ -393,6 +397,7 @@ a:focus {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    min-height: 300px;
 }
 
 .carousel .carousel-text {
@@ -526,6 +531,10 @@ a:focus {
 }
 
 @media (max-width: 575.98px) {
+    .carousel .carousel-img {
+        height: auto; /* Allow the image to adjust height automatically */
+    }
+
     .carousel .carousel-text h1 {
         font-size: 25px;
     }
@@ -534,6 +543,11 @@ a:focus {
         padding: 8px 20px;
         font-size: 14px;
         letter-spacing: 0;
+    }
+
+    /* Adjust the min-height for smaller screens to avoid background visibility */
+    .carousel .carousel-item {
+        min-height: 250px;
     }
 }
 
