@@ -331,7 +331,17 @@ a:focus {
     .navbar .dropdown-menu {
         box-shadow: none;
     }
+    .navbar .navbar-brand {
+        margin: 0;
+        color: #ffffff;
+        font-size: 15px;
+        line-height: 0px;
+        font-weight: 700;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
 }
+
 
 
 /*******************************/
@@ -512,6 +522,7 @@ a:focus {
         font-size: 15px;
         letter-spacing: 0;
     }
+    
 }
 
 @media (max-width: 575.98px) {
