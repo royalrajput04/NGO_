@@ -4,7 +4,7 @@
 body {
     color: black;
     font-weight: 500;
-    background: #14397b;
+    background: #d9e9f2;
     font-family: 'Quicksand', sans-serif;
 }
 #ankit
@@ -18,7 +18,7 @@ h3,
 h4,
 h5, 
 h6 {
-    color: #288e91;
+    color: #293a5d;
 }
 
 .map-container{
@@ -35,7 +35,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #d9e9f2;
+    color: #288e91;
     outline: none;
     text-decoration: none;
 }
@@ -45,10 +45,10 @@ a:focus {
     text-align: center; 
    font-size: 16px;
     font-weight: 500;
-    color: #d9e9f2;
+    color: #288e91;
     border-radius: 0;
-    border: 2px solid #d9e9f2;
-    box-shadow: inset 0 0 0 0 #d9e9f2;
+    border: 2px solid #288e91;
+    box-shadow: inset 0 0 0 0 #288e91;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
@@ -56,7 +56,7 @@ a:focus {
 
 .btn.btn-custom:hover {
     color: #20212B;
-    box-shadow: inset 0 0 0 30px #d9e9f2;
+    box-shadow: inset 0 0 0 30px #288e91;
 }
 
 .btn:focus,
@@ -109,7 +109,7 @@ a:focus {
     width: 45px;
     height: 45px;
     border: 5px solid #dddddd;
-    border-top: 5px solid #d9e9f2;
+    border-top: 5px solid #288e91;
     border-radius: 50%;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
@@ -128,7 +128,7 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #d9e9f2;
+    background: #288e91;
     width: 44px;
     height: 44px;
     text-align: center;
@@ -150,7 +150,7 @@ a:focus {
 }
 
 .back-to-top:hover i {
-    color: #d9e9f2;
+    color: #288e91;
 }
 
 
@@ -196,12 +196,12 @@ a:focus {
 
 .top-bar .text i {
     font-size: 16px;
-    color: #d9e9f2;
+    color: #afd195;
     margin-right: 5px;
 }
 
 .top-bar .text p {
-    color: #d9e9f2;
+    color: #afd195;
     font-size: 16px;
     font-weight: 500;
     margin: 0;
@@ -221,7 +221,7 @@ a:focus {
     width: 45px;
     height: 100%;
     font-size: 16px;
-    color: #d9e9f2;
+    color: #afd195;
     border-right: 1px solid rgba(255, 255, 255, .3);
 }
 
@@ -260,7 +260,7 @@ a:focus {
 
 .navbar .navbar-brand {
     margin: 0;
-    color: #d9e9f2;
+    color: #afd195;
     font-size: 45px;
     line-height: 0px;
     font-weight: 700;
@@ -278,7 +278,7 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 15px 8px 15px;
-    color: #d9e9f2;
+    color: #afd195;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -337,7 +337,7 @@ a:focus {
     }
     .navbar .navbar-brand {
         margin: 0;
-        color: #ffffff;
+        color: #afd195;
         font-size: 15px;
         line-height: 0px;
         font-weight: 700;
@@ -355,7 +355,7 @@ a:focus {
     position: relative;
     width: 100%;
     min-height: 300px;
-    background: #14397b;
+    background: #d9e9f2;
     margin-bottom: 45px;
 }
 
@@ -455,7 +455,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #d9e9f2;
+    color: #288e91;
     background: rgba(256, 256, 256, .2);
     font-size: 22px;
     transition: .3s;
@@ -464,7 +464,7 @@ a:focus {
 .carousel .owl-nav .owl-prev:hover,
 .carousel .owl-nav .owl-next:hover {
     color: #ffffff;
-    background: #d9e9f2;
+    background: #288e91;
 }
 
 .carousel .owl-nav .owl-prev {
@@ -569,7 +569,7 @@ a:focus {
 
 .page-header h2 {
     position: relative;
-    color: #d9e9f2;
+    color: #288e91;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -583,7 +583,7 @@ a:focus {
     height: 2px;
     left: calc(50% - 50px);
     bottom: 0;
-    background: #d9e9f2;
+    background: #288e91;
 }
 
 .page-header a {
@@ -594,7 +594,7 @@ a:focus {
 }
 
 .page-header a:hover {
-    color: #d9e9f2;
+    color: #288e91;
 }
 
 .page-header a::after {
@@ -657,7 +657,7 @@ a:focus {
     font-size: 22px;
     font-weight: 600;
     text-transform: capitalize;
-    color: #d9e9f2;
+    color: #288e91;
 }
 
 .section-header h2 {
@@ -719,9 +719,9 @@ a:focus {
 
 .about .about-tab .nav.nav-pills .nav-link:hover,
 .about .about-tab .nav.nav-pills .nav-link.active {
-    color: #d9e9f2;
+    color: #288e91;
     padding-bottom: 7px;
-    border-bottom: 3px solid #d9e9f2;
+    border-bottom: 3px solid #288e91;
 }
 
 .about .about-tab .tab-content {
@@ -766,7 +766,7 @@ a:focus {
 .service .service-icon i {
     position: relative;
     display: block;
-    color: #d9e9f2;
+    color: #288e91;
     font-size: 60px;
     line-height: 60px;
     margin-top: 5px;
@@ -795,7 +795,7 @@ a:focus {
     height: 40px;
     top: calc(50% - 20px);
     left: -1px;
-    background: #d9e9f2;
+    background: #288e91;
 }
 
 .service .service-text h3 {
@@ -847,7 +847,7 @@ a:focus {
 
 .donate .donate-form {
     padding: 90px 30px;
-    background: #d9e9f2;
+    background: #288e91;
 }
 
 .donate .donate-form .control-group {
@@ -890,7 +890,7 @@ a:focus {
 
 .donate .donate-form .btn.btn-custom:hover,
 .donate .donate-form .btn.btn-custom.active {
-    color: #d9e9f2;
+    color: #288e91;
     border: 1px solid #ffffff;
     box-shadow: inset 0 0 0 30px #ffffff;
 }
@@ -948,7 +948,7 @@ a:focus {
 .causes .progress .progress-bar {
     position: relative;
     width: 0px;
-    background: #d9e9f2;
+    background: #288e91;
     overflow: visible;
     transition: 2s;
 }
@@ -960,7 +960,7 @@ a:focus {
     height: 23px;
     display: inline-block;
     padding: 2px 6px;
-    background: #d9e9f2;
+    background: #288e91;
     color: #20212B;
 }
 
@@ -972,7 +972,7 @@ a:focus {
     top: 23px;
     left: calc(50% - 6px);
     border: 6px solid;
-    border-color: #d9e9f2 transparent transparent transparent;
+    border-color: #288e91 transparent transparent transparent;
 }
 
 .causes .progress-text {
@@ -1011,7 +1011,7 @@ a:focus {
 
 .causes .causes-btn .btn:last-child {
     color: #20212B;
-    background: #d9e9f2;
+    background: #288e91;
 }
 
 .causes .causes-btn .btn:last-child:hover {
@@ -1043,7 +1043,7 @@ a:focus {
     margin-top: 10px;
     font-size: 60px;
     line-height: 60px;
-    color: #d9e9f2;
+    color: #288e91;
 }
 
 .facts .facts-text {
@@ -1152,13 +1152,13 @@ a:focus {
     text-align: center;
     font-size: 14px;
     color: #4a4c70;
-    border: 2px solid #d9e9f2;
+    border: 2px solid #288e91;
     transition: .3s;
 }
 
 .team .team-social a:hover {
     color: #20212B;
-    background: #d9e9f2;
+    background: #288e91;
 }
 
 .team .team-item:hover .team-text {
@@ -1233,7 +1233,7 @@ a:focus {
     width: 12px;
     height: 12px;
     border-radius: 0;
-    background: #d9e9f2;
+    background: #288e91;
 }
 
 .testimonial .owl-dot.active {
@@ -1290,7 +1290,7 @@ a:focus {
     color: #ffffff;
     padding: 0 15px;
     border-radius: 0;
-    border: 1px solid #ffffff;
+    border: 1px solid #288e91;
     background: transparent;
 }
 
@@ -1300,26 +1300,26 @@ a:focus {
 }
 
 .volunteer .volunteer-form .form-control::placeholder {
-    color: #ffffff;
+    color: #293a5d;
     opacity: 1;
 }
 
 .volunteer .volunteer-form .form-control:-ms-input-placeholder,
 .volunteer .volunteer-form .form-control::-ms-input-placeholder {
-    color: #ffffff;
+    color: #293a5d;
 }
 
 .volunteer .volunteer-form .btn.btn-custom {
     padding: 15px 0;
     width: 100%;
     height: 60px;
-    color: #ffffff;
-    border: 1px solid #ffffff;
+    color: #293a5d;
+    border: 1px solid #288e91;
     box-shadow: inset 0 0 0 0 #ffffff;
 }
 
 .volunteer .volunteer-form .btn.btn-custom:hover {
-    color: #d9e9f2;
+    color: #288e91;
     border: 1px solid #ffffff;
     box-shadow: inset 0 0 0 30px #ffffff;
 }
@@ -1394,7 +1394,7 @@ a:focus {
     height: 40px;
     top: calc(50% - 20px);
     left: -1px;
-    background: #d9e9f2;
+    background: #288e91;
 }
 
 .event .event-text h3 {
@@ -1480,11 +1480,11 @@ a:focus {
 }
 
 .blog .blog-text h3 a {
-    color: #288e91;
+    color: #293a5d;
 }
 
 .blog .blog-text h3 a:hover {
-    color: #d9e9f2;
+    color: #288e91;
 }
 
 .blog .blog-text p {
@@ -1531,7 +1531,7 @@ a:focus {
 
 .blog .pagination .page-link:hover,
 .blog .pagination .page-item.active .page-link {
-    color: #d9e9f2;
+    color: #288e91;
     background: #4a4c70;
 }
 
@@ -1592,7 +1592,7 @@ a:focus {
     padding: 15px;
     background: none;
     border-radius: 0;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 1px solid #288e91;
 }
 
 .contact .contact-form textarea {
@@ -1600,7 +1600,7 @@ a:focus {
     padding: 8px 15px;
     background: none;
     border-radius: 0;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 1px solid #288e91;
 }
 
 .contact .contact-form .btn.btn-custom {
@@ -1650,8 +1650,8 @@ a:focus {
 
 .single .single-tags a:hover {
     color: #ffffff;
-    background: #d9e9f2;
-    border-color: #d9e9f2;
+    background: #288e91;
+    border-color: #288e91;
 }
 
 .single .single-bio {
@@ -1729,7 +1729,7 @@ a:focus {
 }
 
 .single .post-item .post-text a:hover {
-    color: #d9e9f2;
+    color: #288e91;
 }
 
 .single .post-item .post-meta {
@@ -1771,14 +1771,14 @@ a:focus {
     align-items: center;
     justify-content: center;
     color: #4a4c70;
-    background: #d9e9f2;
+    background: #288e91;
     font-size: 16px;
     transition: .3s;
 }
 
 .single .related-slider .owl-nav .owl-prev:hover,
 .single .related-slider .owl-nav .owl-next:hover {
-    color: #d9e9f2;
+    color: #288e91;
     background: #4a4c70;
 }
 
@@ -1844,7 +1844,7 @@ a:focus {
 }
 
 .single .comment-text .btn:hover {
-    background: #d9e9f2;
+    background: #288e91;
 }
 
 .single .comment-form {
@@ -1873,7 +1873,7 @@ a:focus {
 
 .single .comment-form input:focus,
 .single .comment-form textarea:focus {
-    border-color: #d9e9f2;
+    border-color: #288e91;
 }
 
 
@@ -1911,7 +1911,7 @@ a:focus {
     height: 2px;
     bottom: 0;
     left: 0;
-    background: #d9e9f2;
+    background: #288e91;
 }
 
 .sidebar .sidebar-widget .search-widget {
@@ -1926,7 +1926,7 @@ a:focus {
 
 .sidebar .search-widget input:focus {
     box-shadow: none;
-    border-color: #d9e9f2;
+    border-color: #288e91;
 }
 
 .sidebar .search-widget .btn {
@@ -1936,7 +1936,7 @@ a:focus {
     height: 40px;
     padding: 0;
     font-size: 25px;
-    color: #d9e9f2;
+    color: #288e91;
     background: none;
     border-radius: 0;
     border: none;
@@ -1957,13 +1957,13 @@ a:focus {
 
 .sidebar .tab-post .nav.nav-pills .nav-link {
     color: #4a4c70;
-    background: #d9e9f2;
+    background: #288e91;
     border-radius: 0;
 }
 
 .sidebar .tab-post .nav.nav-pills .nav-link:hover,
 .sidebar .tab-post .nav.nav-pills .nav-link.active {
-    color: #d9e9f2;
+    color: #288e91;
     background: #4a4c70;
 }
 
@@ -2004,7 +2004,7 @@ a:focus {
     content: '\f105';
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
-    color: #d9e9f2;
+    color: #288e91;
     left: 1px;
 }
 
@@ -2031,8 +2031,8 @@ a:focus {
 
 .single .tag-widget a:hover {
     color: #ffffff;
-    background: #d9e9f2;
-    border-color: #d9e9f2;
+    background: #288e91;
+    border-color: #288e91;
 }
 
 .sidebar .image-widget {
@@ -2075,7 +2075,7 @@ a:focus {
     margin-bottom: 30px;
     font-size: 22px;
     font-weight: 700;
-    color: #d9e9f2;
+    color: #288e91;
 }
 
 .footer .footer-link a {
@@ -2094,7 +2094,7 @@ a:focus {
 }
 
 .footer .footer-link a:hover {
-    color: #d9e9f2;
+    color: #288e91;
     letter-spacing: 1px;
 }
 
@@ -2165,7 +2165,7 @@ a:focus {
 }
 
 .footer .copyright p a:hover {
-    color: #d9e9f2;
+    color: #288e91;
 }
 
 @media (max-width: 767.98px) {
