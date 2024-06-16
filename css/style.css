@@ -1249,6 +1249,9 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     background: rgba(0, 0, 0, .5);
+    overflow: hidden; /* Ensure background covers the entire element */
+    background-size: cover; /* Make sure the background image covers the entire element */
+    background-position: center;
 }
 
 .volunteer .volunteer-content {
